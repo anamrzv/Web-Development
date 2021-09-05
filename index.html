@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/bun.jpg">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/body.css">
+    <title>Ana's Web</title>
+</head>
+
+<body>
+<header>
+    <a href="https://github.com/anamrzv"><img src="img/bun.jpg" width="70" height="70"></a>
+    <div>
+        <p>Морозова Анастасия Александровна P3230</p>
+        <p>Вариант 30010</p>
+    </div>
+</header>
+
+<div class="choose-area">
+    <img id="figure" src="img/figure.jpg" width="200" height="200">
+    <form id="coordinates-form">
+        <div class="checkbox-area">
+            <p>Выберите X:</p>
+            <div class="x">
+                <label>-4<input type="checkbox" name="x" value="-4"></label>
+                <label>-3<input type="checkbox" name="x" value="-3"></label>
+                <label>-2<input type="checkbox" name="x" value="-2"></label>
+                <label>-1<input type="checkbox" name="x" value="-1"></label>
+                <label>0<input type="checkbox" name="x" value="0"></label>
+                <label>1<input type="checkbox" name="x" value="1"></label>
+                <label>2<input type="checkbox" name="x" value="2"></label>
+                <label>3<input type="checkbox" name="x" value="3"></label>
+                <label>4<input type="checkbox" name="x" value="4"></label>
+            </div>
+
+            <p>Выберите Y:</p>
+            <div class="y">
+                <input type="text" name="y" required="" placeholder="Число в интервале (-3;5)">
+            </div>
+
+            <p>Выберите R:</p>
+            <div class="r">
+                <label>1<input type="checkbox" name="r" value="1"></label>
+                <label>2<input type="checkbox" name="r" value="2"></label>
+                <label>3<input type="checkbox" name="r" value="3"></label>
+                <label>4<input type="checkbox" name="r" value="4"></label>
+                <label>5<input type="checkbox" name="r" value="4"></label>
+            </div>
+
+            <div class="buttons-area">
+                <button type="submit" class="gradient-button">Отправить</button>
+                <button type="submit" class="gradient-button">Очистить таблицу</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div>
+    <table id="main-table">
+        <caption>История выполнений</caption>
+        <tr>
+            <th class="col">X</th>
+            <th class="col">Y</th>
+            <th class="col">R</th>
+            <th class="col">Текущее время</th>
+            <th class="col">Время исполнения</th>
+            <th class="col">Результат</th>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
