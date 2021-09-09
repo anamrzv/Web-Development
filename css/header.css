@@ -1,4 +1,4 @@
-header {
+.header {
     background-color: midnightblue;
     height: 90px;
     display: flex;
@@ -7,13 +7,13 @@ header {
     box-shadow: 0 0 18px 5px #00538b;
 }
 
-header img {
+.header img {
     border-radius: 50%;
     margin-top: 10px;
     margin-left: 10px;
 }
 
-header p {
+.header p {
     color: whitesmoke;
     font-family: "Century Gothic", sans-serif;
     font-size: 20px;
