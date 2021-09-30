@@ -11,6 +11,10 @@ body {
 }
 
 .choose-area {
+    background-color: black;
+}
+
+.choose-area {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
